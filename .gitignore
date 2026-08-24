@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Dados
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Power BI (arquivos temporarios)
+dashboards/*.pbix.bak
+~$*.pbix
+
+# Ferramentas
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
